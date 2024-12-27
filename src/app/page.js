@@ -28,7 +28,7 @@ const Home = dynamic(
           <h1>User List with Virtualization</h1>
           <div className="controls">
             <label htmlFor="perPage">Items per page:</label>
-            <select id="perPage" onChange={selectOptions}>
+            <select id="perPage" onChange={selectOptions} value={itemPerPage}>
               <option value={3}>3</option>
               <option value={5}>5</option>
               <option value={8}>8</option>
